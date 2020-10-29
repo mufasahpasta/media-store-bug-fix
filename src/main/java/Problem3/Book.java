@@ -40,7 +40,6 @@ public abstract class Book implements StoreMediaOperations {
         return id.equals(theOtherBook.id) &&
                 author.equals(theOtherBook.author) &&
                 title.equals(theOtherBook.title);
-
         // fix is here
         // return id.equals(theOtherBook.id);
     }
